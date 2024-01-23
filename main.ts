@@ -1,4 +1,7 @@
-function TopScore (Score: any[]) {
+function Player2Score (P2Score: any[]) {
+	
+}
+function Player1Score (P1Score: any[]) {
 	
 }
 let list: number[] = []
@@ -38,6 +41,7 @@ let mySprite2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
-TopScore(list)
 info.player1.setScore(0)
 info.player2.setScore(0)
+Player1Score(list)
+Player2Score(list)
